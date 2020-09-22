@@ -1,8 +1,11 @@
 <snippet>
 	<content><![CDATA[
-import $1 from '@/components/$1.vue';
+@mutation $1(payload: any): void {
+	this.value = payload;	
+}
+
 ]]></content>
-<tabTrigger>vimport</tabTrigger>
+<tabTrigger>vtsmutations</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.vue</scope> -->
 </snippet>

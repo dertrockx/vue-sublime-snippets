@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+import Vue from 'vue'
+import Vuex from 'vuex'
+// import SampleStore from "./sample-module";
+import SampleStore from "./sample-module";
+import { extractVuexModule, createProxy  } from "vuex-class-component";
+Vue.use(Vuex)
+
+const store = new Vuex.Store({
+  modules: {
+		// ...extractVuexModule( SampleStore )
+  }
+})
+
+
+export default store;
+/* // Create Proxy
+* const vxm = {
+*	// Format:
+*	// namespace: createProxy( store, ModuleStore )
+*	user: createProxy( store, UserStore )
+* }
+*/
+]]></content>
+<tabTrigger>vxtsindex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.vue</scope> -->
+</snippet>
