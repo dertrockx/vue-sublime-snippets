@@ -1,5 +1,7 @@
-# vue-sublime-snippets
+# vue-sublime-snippets 
+( forked from sdras/vue-sublime-snippets )
 Simplify and supercharging my workflow with snippets for Vue.js that help me spin things up quickly
+
 
 Not all of the files here are precisely for Vue development (such as the gitignore), but all can be applied to Vue workflows.
 
